@@ -1,0 +1,39 @@
+# Rust
+/target
+**/*.rs.bk
+Cargo.lock
+
+# Editor and IDE artifacts
+.vscode/
+.idea/
+*.swp
+*~
+
+# Linux Kernel Module development
+*.o
+*.ko
+*.mod.*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+*.symvers
+*.order
+.DS_Store
+
+# Build artifacts
+/build
+/debug
+
+# Dependency directories
+**/vendor/
+
+# Logs
+logs
+*.log
+
+# Nix
+shell.nix
+/result*
+/nix-shell
+
