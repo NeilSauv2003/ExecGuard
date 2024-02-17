@@ -1,5 +1,5 @@
 # Rust
-/target
+target/
 **/*.rs.bk
 Cargo.lock
 
@@ -36,4 +36,4 @@ logs
 shell.nix
 /result*
 /nix-shell
-
+.envrc
