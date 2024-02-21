@@ -1,0 +1,23 @@
+#pragma once
+
+#define FAMILY_NAME "execguard"
+
+enum GNL_ATTRIBUTE {
+    GNL_A_UNSPEC,
+    GNL_A_PID,
+    __GNL_A_MAX,
+};
+
+#define GNL_ATTRIBUTE_ENUM_LEN (__GNL_A_MAX)
+
+#define GNL_ATTRIBUTE_COUNT (GNL_ATTRIBUTE_ENUM_LEN - 1)
+
+enum GNL_COMMAND {
+    GNL_C_UNSPEC,
+    GNL_C_SEND_PID,
+    __GNL_C_MAX,
+};
+
+#define GNL_COMMAND_ENUM_LEN (__GNL_C_MAX)
+
+#define GNL_COMMAND_COUNT (GNL_COMMAND_ENUM_LEN - 1)

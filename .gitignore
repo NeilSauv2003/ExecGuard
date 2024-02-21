@@ -8,6 +8,7 @@ Cargo.lock
 .idea/
 *.swp
 *~
+.vim/
 
 # Linux Kernel Module development
 *.o
@@ -20,6 +21,7 @@ Module.symvers
 *.symvers
 *.order
 .DS_Store
+tests/
 
 # Build artifacts
 /build
@@ -37,3 +39,5 @@ shell.nix
 /result*
 /nix-shell
 .envrc
+.cache/
+compile_commands.json
